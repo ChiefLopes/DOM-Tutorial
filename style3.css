@@ -18,23 +18,29 @@ body {
 .reveal-btn1 {
     outline: none;
     height: 15.2rem;
-    width: 6rem;
+    width: 10rem;
     border-radius: 8px;
     padding: 20px;
     background: #6c1919;
     border: 2px solid white;
     margin-right: 10px;
     font-weight: 900;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 .hidden-content {
     outline: none;
+    display: none;
     height: 13rem;
     width: 28rem;
     text-align: center;
-    padding-top: 10px;
     border-radius: 8px;
     background: #6c1919;
     border: 2px solid white;
-    padding: 20px;
+    padding-top: 40px;
+}
+
+.hidden-content.reveal-btn1 {
+    display: block;
 }

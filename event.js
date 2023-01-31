@@ -12,7 +12,7 @@ box3.addEventListener('click', () => {
     console.log('javacrsipt is awesome');
 })
 
-//* We can decide to create the fucntion outside the event listener scope.
+//* We can decide to create the fucntion outside the event listener scope and then call the function inside the addEvenListener scope.
 const box2 = document.querySelector('.box-2');
 
 const logBtn = () => console.log('From box2, javascript is great! 😄');
