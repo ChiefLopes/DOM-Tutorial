@@ -1,0 +1,40 @@
+body {
+        background: linear-gradient(to right, #1a0b6f, #a74e0e);
+        height: 90vh;
+        margin-top: 7rem;
+      }
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+}
+
+#main-heading{
+      display: flex;
+      justify-content: center;
+      font-size: 3rem;
+}
+.reveal-btn1 {
+    outline: none;
+    height: 15.2rem;
+    width: 6rem;
+    border-radius: 8px;
+    padding: 20px;
+    background: #6c1919;
+    border: 2px solid white;
+    margin-right: 10px;
+    font-weight: 900;
+}
+
+.hidden-content {
+    outline: none;
+    height: 13rem;
+    width: 28rem;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 8px;
+    background: #6c1919;
+    border: 2px solid white;
+    padding: 20px;
+}
